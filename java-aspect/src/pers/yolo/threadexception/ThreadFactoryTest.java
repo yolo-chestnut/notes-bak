@@ -1,9 +1,9 @@
-package pirv.yolo.threadexception;
+package pers.yolo.threadexception;
 
-import pirv.yolo.threadexception.factory.ExceptionFactory;
-import pirv.yolo.threadexception.handler.DefaultThreadExceptionHandler;
-import pirv.yolo.threadexception.task.CallableTask;
-import pirv.yolo.threadexception.task.Task;
+import pers.yolo.threadexception.handler.DefaultThreadExceptionHandler;
+import pers.yolo.threadexception.factory.ExceptionFactory;
+import pers.yolo.threadexception.task.CallableTask;
+import pers.yolo.threadexception.task.Task;
 
 import java.util.concurrent.*;
 

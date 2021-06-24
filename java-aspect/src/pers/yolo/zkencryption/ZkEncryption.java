@@ -1,4 +1,4 @@
-package pirv.yolo.zkencryption;
+package pers.yolo.zkencryption;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;

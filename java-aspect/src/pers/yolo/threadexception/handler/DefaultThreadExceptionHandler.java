@@ -1,4 +1,4 @@
-package pirv.yolo.threadexception.handler;
+package pers.yolo.threadexception.handler;
 
 public class DefaultThreadExceptionHandler implements Thread.UncaughtExceptionHandler {
     @Override

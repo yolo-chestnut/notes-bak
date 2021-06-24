@@ -1,4 +1,4 @@
-package pirv.yolo.threadexception.task;
+package pers.yolo.threadexception.task;
 
 import java.util.concurrent.Callable;
 

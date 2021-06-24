@@ -1,4 +1,4 @@
-package pirv.yolo.threadexception.threadgroup;
+package pers.yolo.threadexception.threadgroup;
 
 public class ThreadGroup3 extends ThreadGroup {
     public ThreadGroup3(String name) {

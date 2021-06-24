@@ -1,4 +1,4 @@
-package pirv.yolo.threadexception.task;
+package pers.yolo.threadexception.task;
 
 public class Task implements Runnable {
     private final int i;

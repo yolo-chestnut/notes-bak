@@ -1,8 +1,8 @@
-package pirv.yolo.threadexception;
+package pers.yolo.threadexception;
 
-import pirv.yolo.threadexception.handler.DefaultThreadExceptionHandler;
-import pirv.yolo.threadexception.task.Task;
-import pirv.yolo.threadexception.threadgroup.ThreadGroup3;
+import pers.yolo.threadexception.handler.DefaultThreadExceptionHandler;
+import pers.yolo.threadexception.task.Task;
+import pers.yolo.threadexception.threadgroup.ThreadGroup3;
 
 public class ThreadTest {
 

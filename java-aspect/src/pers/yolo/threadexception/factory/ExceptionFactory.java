@@ -1,4 +1,4 @@
-package pirv.yolo.threadexception.factory;
+package pers.yolo.threadexception.factory;
 
 import java.util.concurrent.ThreadFactory;
 
