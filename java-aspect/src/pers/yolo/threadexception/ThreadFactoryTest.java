@@ -1,7 +1,7 @@
 package pers.yolo.threadexception;
 
-import pers.yolo.threadexception.handler.DefaultThreadExceptionHandler;
 import pers.yolo.threadexception.factory.ExceptionFactory;
+import pers.yolo.threadexception.handler.DefaultThreadExceptionHandler;
 import pers.yolo.threadexception.task.CallableTask;
 import pers.yolo.threadexception.task.Task;
 
