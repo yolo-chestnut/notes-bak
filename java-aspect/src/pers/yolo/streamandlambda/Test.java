@@ -5,7 +5,6 @@ import pers.yolo.streamandlambda.pojo.Student;
 import java.util.function.*;
 
 public class Test {
-
     public static void main(String[] args) {
         Student stuZS = new Student("张三", 18, 177);
         // 断言，判断
@@ -35,7 +34,6 @@ public class Test {
         Student stuLS = mfi.registerStudent("李四", 20, 180);
         System.out.println(stuLS);
     }
-
 }
 
 // FunctionInterface

@@ -5,7 +5,6 @@ import pers.yolo.threadexception.task.Task;
 import pers.yolo.threadexception.threadgroup.ThreadGroup3;
 
 public class ThreadTest {
-
     public static void main(String[] args) throws InterruptedException {
         for (int i = 0; i < 10; i++) {
             new Thread(new Task(i), "test-" + i).start();
@@ -34,5 +33,4 @@ public class ThreadTest {
             e.printStackTrace();
         }
     }
-
 }

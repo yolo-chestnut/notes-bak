@@ -7,7 +7,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 public class CallableThreadTest {
-
     public static void main(String[] args) {
         // 无效演示 不管是设置线程全局默认还是设置线程自己的异常处理，均无法捕获到callable类型抛出的异常
         Thread.setDefaultUncaughtExceptionHandler(new DefaultThreadExceptionHandler());
@@ -28,5 +27,4 @@ public class CallableThreadTest {
             System.out.println("捕获到callable类型异常：" + e);
         }
     }
-
 }

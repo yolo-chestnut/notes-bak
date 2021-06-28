@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class TestCase {
-
     public static void main(String[] args) {
         RegisterStudent<Student> rs = Student::new;
         List<Student> students = Arrays.asList(
@@ -48,5 +47,4 @@ public class TestCase {
         int allAgeSum = all.stream().map(Student::getAge).reduce(0, Integer::sum);
         System.out.println(allAgeSum);
     }
-
 }

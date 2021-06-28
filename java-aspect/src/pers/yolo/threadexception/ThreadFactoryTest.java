@@ -8,7 +8,6 @@ import pers.yolo.threadexception.task.Task;
 import java.util.concurrent.*;
 
 public class ThreadFactoryTest {
-
     public static void main(String[] args) throws InterruptedException {
         // 设置默认全局异常处理
         Thread.setDefaultUncaughtExceptionHandler(new DefaultThreadExceptionHandler());
@@ -37,5 +36,4 @@ public class ThreadFactoryTest {
         }
         tpe.shutdown();
     }
-
 }

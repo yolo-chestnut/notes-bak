@@ -9,7 +9,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class ClassLoaderTest {
-
     public static void main(String[] args) {
         String aClass = "pers.yolo.classloader.pojo.Person";
 
@@ -32,7 +31,6 @@ public class ClassLoaderTest {
         System.out.println(Person.class == a2);
         System.out.println(Person.class == b0);
     }
-
 }
 
 class MyClassLoader extends ClassLoader {

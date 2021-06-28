@@ -9,7 +9,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class TestCollectors {
-
     public static void main(String[] args) {
         List<Student> students1 = Arrays.asList(
                 new Student("黄1", 16, 170, Arrays.asList(SpecialityEnum.DANCE, SpecialityEnum.RUNNING)),
@@ -39,5 +38,4 @@ public class TestCollectors {
         String nameStr = students1.stream().map(Student::getName).collect(Collectors.joining(",", "<", ">"));
         System.out.println(nameStr);
     }
-
 }

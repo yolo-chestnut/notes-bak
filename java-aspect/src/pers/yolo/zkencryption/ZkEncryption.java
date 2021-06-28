@@ -6,7 +6,6 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Base64;
 
 public class ZkEncryption {
-
     /**
      * 使用SHA-1算法加密，然后由BASE64编码
      */
@@ -18,5 +17,4 @@ public class ZkEncryption {
         String encryptStr = Base64.getEncoder().encodeToString(digest);
         System.out.println(encryptStr);
     }
-
 }
