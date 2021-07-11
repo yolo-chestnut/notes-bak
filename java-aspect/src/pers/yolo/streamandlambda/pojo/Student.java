@@ -4,7 +4,6 @@ import java.util.List;
 
 public class Student {
     private String name;
-
     private int age;
     // 身材
     private int stature;

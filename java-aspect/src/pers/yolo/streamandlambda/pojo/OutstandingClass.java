@@ -4,7 +4,6 @@ import java.util.List;
 
 public class OutstandingClass {
     private String className;
-
     private List<Student> students;
 
     public OutstandingClass() {
